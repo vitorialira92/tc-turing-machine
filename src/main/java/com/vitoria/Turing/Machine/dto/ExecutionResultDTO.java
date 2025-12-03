@@ -21,7 +21,4 @@ public class ExecutionResultDTO {
     private long totalSubtractions;
     private long totalComparisons;
     private long totalDivisorIncrements;
-
-
-    private String completeStepsDescription;
 }

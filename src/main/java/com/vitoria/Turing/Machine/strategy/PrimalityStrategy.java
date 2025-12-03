@@ -1,7 +1,9 @@
 package com.vitoria.Turing.Machine.strategy;
 
+import com.vitoria.Turing.Machine.dto.ExecutionResultDTO;
+
 import java.util.LinkedList;
 
 public interface PrimalityStrategy {
-    boolean isPrime(LinkedList<Character> binaryNumber);
+    ExecutionResultDTO isPrime(LinkedList<Character> binaryNumber);
 }
